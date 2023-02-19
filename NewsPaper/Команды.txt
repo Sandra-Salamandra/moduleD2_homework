@@ -105,6 +105,7 @@
 >>> a.ratingAuthor
 -3
 >>> Author.objects.get(authorUser=User.objects.get(username='Mike')).ratingAuthor
+9
 
 
 9. Вывести username и рейтинг лучшего пользователя (применяя сортировку и возвращая поля первого объекта).
